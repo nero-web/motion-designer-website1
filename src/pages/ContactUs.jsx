@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
 import Navbar from "../components/Navbar";
-import bg_about from "../assets/Projects-bg.jpg"
+import bg_about from "../assets/Projects-bg.jpg";
 
 const ContactUs = () => {
   useEffect(() => {
@@ -25,7 +25,7 @@ const ContactUs = () => {
 
 
   return (
-    <div className="" style={{ backgroundImage: `url(${bg_about})` }}>
+    <div className="" style={{ backgroundImage: `url(${bg_about})`}}>
         <Navbar/>
         <div className='bg-transparent md:py-28 xsm:py-16'>
       <div className='px-5 max-w-[1260px] w-full mx-auto min-h-[20px]'>

@@ -1074,6 +1074,15 @@
   }
 }
 
+.bgdiv7 {
+  translate: none;
+  rotate: none;
+  scale: none;
+  opacity: 1;
+  transform: translate(0px, 0%);
+  clip-path: inset(0%);
+}
+
 .work_itempro:hover .heading-55 {
   border-bottom: white solid 2px;
 }

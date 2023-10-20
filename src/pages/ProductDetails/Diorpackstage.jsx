@@ -34,13 +34,16 @@ const Diorpackstage = () => {
           </div>
         </div>
         <div className='work_listpmd work_listpxsm'>
-          <div className='work_item col-span-2 row-span-2'>
+          <div className='work_item col-span-2 row-span-2 bgdiv7'>
             <video
               src={v1}
               className='w-full h-full object-cover'
               autoPlay
               loop
-              muted></video>
+              muted
+              autostart
+              playsInline
+              disablePictureInPicture></video>
           </div>
           <div className='work_item md:col-span-1 xsm:col-span-2'>
             <img src={img1} alt='' className='work_imagee' />
@@ -61,7 +64,7 @@ const Diorpackstage = () => {
               </p>
             </div>
           </div>
-          <div className="mb-10">
+          <div className='mb-10'>
             <h2 className='heading-53 mt-3'>Agence</h2>
             <div className='flex justify-center items-center'>
               <a href='https://malherbe.paris' className='link-17'>
@@ -70,7 +73,7 @@ const Diorpackstage = () => {
             </div>
           </div>
           <div className='main-works bg-cover relative'>
-              <Link to={"/diorsnow"}>
+            <Link to={"/diorsnow"}>
               <img
                 src='https://uploads-ssl.webflow.com/5dcafff3c897156f8d1805ac/64bfcd08a9718805eacae8d3_5e258dde5cbbd610bb282d87_Dior_Snow_Cushion_Direction_Artistique.webp'
                 alt=''
@@ -85,7 +88,7 @@ const Diorpackstage = () => {
                   </div>
                 </div>
               </div>
-              </Link>
+            </Link>
           </div>
           <div className='w-full h-full'>
             <div>
@@ -105,28 +108,28 @@ const Diorpackstage = () => {
                 </div>
               </Link>
               <Link to={"/yvessaintlaurent"}>
-              <div className='col-span-1 work_itempro relative cursor-pointer'>
-                <img
-                  src='https://uploads-ssl.webflow.com/5dcafff3c897156f8d1805ac/64bfcc7bfacc755c5e762d54_5e258d9d9b89b67620482b48_Yves_Saint_Laurent_Spring_Look_2017_The-Street_and_I_Collection_LIPS.webp'
-                  alt=''
-                  className='w-full h-full object-cover absolute'
-                />
-                <div className='w-full h-full bg-transparent absolute'>
-                  <h2 className='heading-55'>Yves Saint Laurent</h2>
+                <div className='col-span-1 work_itempro relative cursor-pointer'>
+                  <img
+                    src='https://uploads-ssl.webflow.com/5dcafff3c897156f8d1805ac/64bfcc7bfacc755c5e762d54_5e258d9d9b89b67620482b48_Yves_Saint_Laurent_Spring_Look_2017_The-Street_and_I_Collection_LIPS.webp'
+                    alt=''
+                    className='w-full h-full object-cover absolute'
+                  />
+                  <div className='w-full h-full bg-transparent absolute'>
+                    <h2 className='heading-55'>Yves Saint Laurent</h2>
+                  </div>
                 </div>
-              </div>
               </Link>
               <Link to={"/gayelordhausertv"}>
-              <div className='col-span-1 work_itempro relative cursor-pointer'>
-                <img
-                  src='https://uploads-ssl.webflow.com/5dcafff3c897156f8d1805ac/64bfcc9d6a8497d80ed407bb_5e258d625cbbd62ee9282a2a_Gayelord_Hauser_Publicite%CC%81_TV_2015.webp'
-                  alt=''
-                  className='w-full h-full object-cover absolute'
-                />
-                <div className='w-full h-full bg-transparent absolute'>
-                  <h2 className='heading-55'>Gayelord Hauser / TV</h2>
+                <div className='col-span-1 work_itempro relative cursor-pointer'>
+                  <img
+                    src='https://uploads-ssl.webflow.com/5dcafff3c897156f8d1805ac/64bfcc9d6a8497d80ed407bb_5e258d625cbbd62ee9282a2a_Gayelord_Hauser_Publicite%CC%81_TV_2015.webp'
+                    alt=''
+                    className='w-full h-full object-cover absolute'
+                  />
+                  <div className='w-full h-full bg-transparent absolute'>
+                    <h2 className='heading-55'>Gayelord Hauser / TV</h2>
+                  </div>
                 </div>
-              </div>
               </Link>
             </div>
             <Footer pr={"0"} pl={"0"} pbt={"0"} />

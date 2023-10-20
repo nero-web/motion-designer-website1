@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div>
       <div className='w-full h-[100vh] relative'>
-        <video className='video-class' src={heroBg} autoPlay loop muted />
+        <video className='video-class' src={heroBg} autoPlay loop muted autostart playsInline disablePictureInPicture></video>
         <Navbar textColor={"white"} className='top-0 left-0' NavPosition={"fixed"}/>
         <div className='fi-flex bottom-0 image-center fixed'>
           <div className='fabien-art fabien-hide'>

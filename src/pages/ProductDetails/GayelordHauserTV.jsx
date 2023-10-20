@@ -31,13 +31,16 @@ const GayelordHauserTV = () => {
           </div>
         </div>
         <div className='work_listpmd work_listpxsm'>
-          <div className='work_item col-span-2 row-span-2'>
-            <video
+          <div className='work_item col-span-2 row-span-2 bgdiv7'>
+          <video
               src={v1}
               className='w-full h-full object-cover'
               autoPlay
               loop
-              muted></video>
+              muted
+              autostart
+              playsInline
+              disablePictureInPicture></video>
           </div>
           <div className='work_item md:col-span-1 xsm:col-span-2'>
             <img src={img1} alt='' className='work_imagee' />

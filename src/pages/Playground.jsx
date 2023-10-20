@@ -41,17 +41,17 @@ const Playground = () => {
                     <div className="work_item frscreen:col-span-2 work_itemlg">
                         <img src={img2} alt="" className="work_imagee"/>
                     </div>
-                    <div className="work_item row-span-2 work_itemlg">
-                        <video src={v1} className="work_imagee" autoPlay loop muted></video>
+                    <div className="work_item row-span-2 work_itemlg bgdiv7">
+                        <video src={v1} className="work_imagee" autoPlay loop muted autostart playsInline disablePictureInPicture></video>
                     </div>
-                    <div className="work_item work_itemlg">
-                        <video src={v2} className="work_imagee" autoPlay loop muted></video>
+                    <div className="work_item work_itemlg bgdiv7">
+                        <video src={v2} className="work_imagee" autoPlay loop muted autostart playsInline disablePictureInPicture></video>
                     </div>
                     <div className="work_item work_itemlg">
                         <img src={img3} alt="" className="work_imagee"/>
                     </div>
-                    <div className="work_item frscreen:col-span-2 work_itemlg">
-                        <video src={v3} className="work_imagee" autoPlay loop muted></video>
+                    <div className="work_item frscreen:col-span-2 work_itemlg bgdiv7">
+                        <video src={v3} className="work_imagee" autoPlay loop muted autostart playsInline disablePictureInPicture></video>
                     </div>
                     <div className="work_item frscreen:col-span-2 work_itemlg">
                         <img src={img4} alt="" className="work_imagee"/>
@@ -65,8 +65,8 @@ const Playground = () => {
                     <div className="work_item work_itemlg">
                         <img src={img7} alt="" className="work_imagee"/>
                     </div>
-                    <div className="work_item frscreen:col-span-2 work_itemlg">
-                        <video src={v4} className="work_imagee" autoPlay loop muted></video>
+                    <div className="work_item frscreen:col-span-2 work_itemlg bgdiv7">
+                        <video src={v4} className="work_imagee" autoPlay loop muted autostart playsInline disablePictureInPicture></video>
                     </div>
                 </div>
             </div>

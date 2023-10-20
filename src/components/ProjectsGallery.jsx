@@ -323,7 +323,7 @@ const ProjectsGallery = () => {
         </div>
         <div className='flex justify-center items-center'>
           <div
-            className=' rounded-lg embed-responsive embed-responsive-16by9 relative w-full overflow-hidden max-h-[700px] max-w-[1500px] flex justify-center items-center'
+            className=' rounded-lg embed-responsive embed-responsive-16by9 relative w-full overflow-hidden max-h-[700px] max-w-[1500px] flex justify-center items-center bgdiv7'
             style={{ paddingTop: "56.25%" }}>
             {isPlaying ? (
               <iframe
@@ -349,7 +349,10 @@ const ProjectsGallery = () => {
               className={`w-full h-full fviff${isPlaying ? "" : ""}`}
               autoPlay
               muted
-              loop></video>
+              loop
+              autostart
+              playsInline
+              disablePictureInPicture></video>
           </div>
         </div>
       </div>

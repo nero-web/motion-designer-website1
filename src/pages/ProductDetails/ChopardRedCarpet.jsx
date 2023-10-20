@@ -27,13 +27,16 @@ const ChopardRedCarpet = () => {
           </div>
         </div>
         <div className='work_listpmd work_listpxsm'>
-          <div className='work_item col-span-2 row-span-1 max-h-[600px]'>
-            <video
+          <div className='work_item col-span-2 row-span-1 max-h-[600px] bgdiv7'>
+          <video
               src={v1}
               className='w-full h-full object-cover'
               autoPlay
               loop
-              muted></video>
+              muted
+              autostart
+              playsInline
+              disablePictureInPicture></video>
           </div>
         </div>
         <div className='div-block-187'>
